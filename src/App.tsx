@@ -3,7 +3,7 @@ import "./App.css";
 import InputField from "./components/InputField";
 import { Todo } from "./model/model";
 import TodoList from "./components/TodoList";
-
+//1:01:40
 const App: React.FC = () => {
   const [todo, setTodo] = useState<string>("");
   const [todos, setTodos] = useState<Todo[]>([]);
